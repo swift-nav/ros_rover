@@ -1,0 +1,8 @@
+prefix=/home/erle/ros_catkin_ws/devel_isolated/raspicam
+
+Name: raspicam
+Description: Description of raspicam
+Version: 0.0.0
+Cflags: -I/home/erle/ros_catkin_ws/src/raspicam_node/include
+Libs: -L/home/erle/ros_catkin_ws/devel_isolated/raspicam/lib 
+Requires: 

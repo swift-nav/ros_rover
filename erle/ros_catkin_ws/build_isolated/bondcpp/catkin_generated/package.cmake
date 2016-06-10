@@ -1,0 +1,8 @@
+set(_CATKIN_CURRENT_PACKAGE "bondcpp")
+set(bondcpp_VERSION "1.7.16")
+set(bondcpp_MAINTAINER "Esteve Fernandez <esteve@osrfoundation.org>")
+set(bondcpp_BUILD_DEPENDS "bond" "boost" "cmake_modules" "roscpp" "smclib" "uuid")
+set(bondcpp_RUN_DEPENDS "bond" "boost" "roscpp" "smclib" "uuid")
+set(bondcpp_DEPRECATED "")
+set(bondcpp_BUILDTOOL_DEPENDS "catkin")
+set(bondcpp_BUILD_DEPENDS_cmake_modules_VERSION_GTE "0.3.2")

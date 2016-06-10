@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "smclib")
+set(smclib_MAINTAINER "Esteve Fernandez <esteve@osrfoundation.org>")
+set(smclib_DEPRECATED "")
+set(smclib_VERSION "1.7.16")
+set(smclib_BUILD_DEPENDS )
+set(smclib_RUN_DEPENDS )
+set(smclib_BUILDTOOL_DEPENDS "catkin")

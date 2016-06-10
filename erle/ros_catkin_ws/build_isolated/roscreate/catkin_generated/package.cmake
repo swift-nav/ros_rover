@@ -1,0 +1,8 @@
+set(_CATKIN_CURRENT_PACKAGE "roscreate")
+set(roscreate_VERSION "1.11.11")
+set(roscreate_MAINTAINER "Dirk Thomas <dthomas@osrfoundation.org>")
+set(roscreate_BUILD_DEPENDS )
+set(roscreate_RUN_DEPENDS "python-rospkg")
+set(roscreate_DEPRECATED "")
+set(roscreate_BUILDTOOL_DEPENDS "catkin")
+set(roscreate_BUILDTOOL_DEPENDS_catkin_VERSION_GTE "0.5.68")

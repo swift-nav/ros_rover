@@ -1,0 +1,8 @@
+prefix=/home/erle/ros_catkin_ws/devel_isolated/tf2_py
+
+Name: tf2_py
+Description: Description of tf2_py
+Version: 0.5.12
+Cflags: 
+Libs: -L/home/erle/ros_catkin_ws/devel_isolated/tf2_py/lib 
+Requires: rospy tf2

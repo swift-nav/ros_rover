@@ -1,0 +1,2 @@
+/usr/bin/ar cr /home/erle/ros_catkin_ws/devel_isolated/raspicam/lib/libraspicamcontrol.a  CMakeFiles/raspicamcontrol.dir/src/RaspiCamControl.cpp.o
+/usr/bin/ranlib /home/erle/ros_catkin_ws/devel_isolated/raspicam/lib/libraspicamcontrol.a

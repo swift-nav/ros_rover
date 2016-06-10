@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/erle/ros_catkin_ws/build_isolated/python_orocos_kdl/install/PyKDL/sipPyKDLpart0.cpp
+
+/home/erle/ros_catkin_ws/build_isolated/python_orocos_kdl/install/PyKDL/sipPyKDLpart1.cpp
+
+/home/erle/ros_catkin_ws/build_isolated/python_orocos_kdl/install/PyKDL/sipPyKDLpart2.cpp
+
+/home/erle/ros_catkin_ws/build_isolated/python_orocos_kdl/install/PyKDL/sipPyKDLpart3.cpp
+
+/home/erle/ros_catkin_ws/build_isolated/python_orocos_kdl/install/PyKDL/sipPyKDLpart4.cpp
+
+/home/erle/ros_catkin_ws/build_isolated/python_orocos_kdl/install/PyKDL/sipPyKDLpart5.cpp
+
+/home/erle/ros_catkin_ws/build_isolated/python_orocos_kdl/install/PyKDL/sipPyKDLpart6.cpp
+
+/home/erle/ros_catkin_ws/build_isolated/python_orocos_kdl/install/PyKDL/sipPyKDLpart7.cpp
+

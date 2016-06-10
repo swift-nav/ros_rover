@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "camera_calibration_parsers")
+set(camera_calibration_parsers_MAINTAINER "Jack O'Quin <jack.oquin@gmail.com>, Vincent Rabaud <vincent.rabaud@gmail.com>")
+set(camera_calibration_parsers_DEPRECATED "")
+set(camera_calibration_parsers_VERSION "1.11.7")
+set(camera_calibration_parsers_BUILD_DEPENDS "boost" "pkg-config" "rosconsole" "sensor_msgs" "yaml-cpp")
+set(camera_calibration_parsers_RUN_DEPENDS "boost" "sensor_msgs" "yaml-cpp")
+set(camera_calibration_parsers_BUILDTOOL_DEPENDS "catkin")

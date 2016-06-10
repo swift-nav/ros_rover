@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "bond")
+set(bond_MAINTAINER "Esteve Fernandez <esteve@osrfoundation.org>")
+set(bond_DEPRECATED "")
+set(bond_VERSION "1.7.16")
+set(bond_BUILD_DEPENDS "message_generation" "std_msgs")
+set(bond_RUN_DEPENDS "message_runtime" "std_msgs")
+set(bond_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,8 @@
+prefix=/home/erle/ros_catkin_ws/install_isolated
+
+Name: gencpp
+Description: Description of gencpp
+Version: 0.5.3
+Cflags: 
+Libs: -L/home/erle/ros_catkin_ws/install_isolated/lib 
+Requires: genmsg

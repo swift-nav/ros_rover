@@ -1,0 +1,21 @@
+Performing C++ SOURCE FILE Test HAVE_CXXABI_H failed with the following output:
+Change Dir: /home/erle/ros_catkin_ws/build_isolated/cpp_common/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3017994185/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3017994185.dir/build.make CMakeFiles/cmTryCompileExec3017994185.dir/build
+make[1]: Entering directory '/home/erle/ros_catkin_ws/build_isolated/cpp_common/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/erle/ros_catkin_ws/build_isolated/cpp_common/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3017994185.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXXABI_H   -o CMakeFiles/cmTryCompileExec3017994185.dir/src.cxx.o -c /home/erle/ros_catkin_ws/build_isolated/cpp_common/CMakeFiles/CMakeTmp/src.cxx
+/home/erle/ros_catkin_ws/build_isolated/cpp_common/CMakeFiles/CMakeTmp/src.cxx:2:8: error: expected constructor, destructor, or type conversion before '(' token
+ intmain(intargc,char**argv){}
+        ^
+CMakeFiles/cmTryCompileExec3017994185.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3017994185.dir/src.cxx.o' failed
+make[1]: Leaving directory '/home/erle/ros_catkin_ws/build_isolated/cpp_common/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3017994185.dir/src.cxx.o] Error 1
+Makefile:114: recipe for target 'cmTryCompileExec3017994185/fast' failed
+make: *** [cmTryCompileExec3017994185/fast] Error 2
+
+Source file was:
+#include<cxxabi.h>
+intmain(intargc,char**argv){}

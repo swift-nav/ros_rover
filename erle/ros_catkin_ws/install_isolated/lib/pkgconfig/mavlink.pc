@@ -1,0 +1,8 @@
+prefix=/home/erle/ros_catkin_ws/install_isolated
+exec_prefix=/home/erle/ros_catkin_ws/install_isolated
+includedir=${prefix}/include
+
+Name: mavlink
+Description: mavlink message marshalling library
+Version: 1.0.9
+Cflags: -I${includedir}

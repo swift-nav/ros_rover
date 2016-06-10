@@ -1,0 +1,8 @@
+prefix=/home/erle/ros_catkin_ws/devel_isolated/libmavconn
+
+Name: libmavconn
+Description: Description of libmavconn
+Version: 0.15.0
+Cflags: -I/home/erle/ros_catkin_ws/src/mavros/libmavconn/include -I/usr/include -I/home/erle/ros_catkin_ws/install_isolated/include
+Libs: -L/home/erle/ros_catkin_ws/devel_isolated/libmavconn/lib -lmavconn -l:/usr/lib/arm-linux-gnueabihf/libboost_system.so -l:/usr/lib/arm-linux-gnueabihf/libconsole_bridge.so
+Requires: 

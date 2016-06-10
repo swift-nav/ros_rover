@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "laser_proc")
+set(laser_proc_MAINTAINER "Chad Rockey <chadrockey@willowgarage.com>")
+set(laser_proc_DEPRECATED "")
+set(laser_proc_VERSION "0.1.4")
+set(laser_proc_BUILD_DEPENDS "roscpp" "rosconsole" "sensor_msgs" "pluginlib" "nodelet")
+set(laser_proc_RUN_DEPENDS "roscpp" "rosconsole" "sensor_msgs" "pluginlib" "nodelet")
+set(laser_proc_BUILDTOOL_DEPENDS "catkin")

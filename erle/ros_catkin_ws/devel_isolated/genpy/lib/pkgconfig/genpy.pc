@@ -1,0 +1,8 @@
+prefix=/home/erle/ros_catkin_ws/devel_isolated/genpy
+
+Name: genpy
+Description: Description of genpy
+Version: 0.5.6
+Cflags: 
+Libs: -L/home/erle/ros_catkin_ws/devel_isolated/genpy/lib 
+Requires: genmsg

@@ -1,0 +1,8 @@
+prefix=/home/erle/ros_catkin_ws/devel_isolated/urg_c
+
+Name: urg_c
+Description: Description of urg_c
+Version: 1.0.404
+Cflags: -I/home/erle/ros_catkin_ws/src/urg_c/current/include
+Libs: -L/home/erle/ros_catkin_ws/devel_isolated/urg_c/lib -lliburg_c
+Requires: 

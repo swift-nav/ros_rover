@@ -1,0 +1,8 @@
+prefix=/home/erle/ros_catkin_ws/devel_isolated/roscpp_traits
+
+Name: roscpp_traits
+Description: Description of roscpp_traits
+Version: 0.5.6
+Cflags: -I/home/erle/ros_catkin_ws/src/roscpp_core/roscpp_traits/include
+Libs: -L/home/erle/ros_catkin_ws/devel_isolated/roscpp_traits/lib 
+Requires: cpp_common rostime

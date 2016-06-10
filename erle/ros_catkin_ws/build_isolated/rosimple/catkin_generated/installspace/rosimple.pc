@@ -1,0 +1,8 @@
+prefix=/home/erle/ros_catkin_ws/install_isolated
+
+Name: rosimple
+Description: Description of rosimple
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/erle/ros_catkin_ws/install_isolated/lib 
+Requires: std_msgs

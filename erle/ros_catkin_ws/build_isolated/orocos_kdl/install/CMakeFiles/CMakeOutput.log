@@ -1,0 +1,290 @@
+The system is: Linux - 3.18.9-rt5-v7+ - armv7l
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec624945404/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec624945404.dir/build.make CMakeFiles/cmTryCompileExec624945404.dir/build
+make[1]: Entering directory '/home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec624945404.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec624945404.dir/testCCompiler.c.o   -c /home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec624945404
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec624945404.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec624945404.dir/testCCompiler.c.o  -o cmTryCompileExec624945404 -rdynamic 
+make[1]: Leaving directory '/home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4159591934/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4159591934.dir/build.make CMakeFiles/cmTryCompileExec4159591934.dir/build
+make[1]: Entering directory '/home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4159591934.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec4159591934.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec4159591934
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4159591934.dir/link.txt --verbose=1
+/usr/bin/gcc       -v CMakeFiles/cmTryCompileExec4159591934.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4159591934 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/4.8/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: ../src/configure -v --with-pkgversion='Raspbian 4.8.2-21~rpi3rpi1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --disable-libitm --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-armhf/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-armhf --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-armhf --with-arch-directory=arm --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-sjlj-exceptions --with-arch=armv6 --with-fpu=vfp --with-float=hard --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf
+Thread model: posix
+gcc version 4.8.2 (Raspbian 4.8.2-21~rpi3rpi1) 
+COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/
+LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4159591934' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /usr/lib/gcc/arm-linux-gnueabihf/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=both -m armelf_linux_eabi -o cmTryCompileExec4159591934 /usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.8/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.8 -L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTryCompileExec4159591934.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/4.8/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crtn.o
+make[1]: Leaving directory '/home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec4159591934/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec4159591934.dir/build.make CMakeFiles/cmTryCompileExec4159591934.dir/build]
+  ignore line: [make[1]: Entering directory '/home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec4159591934.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec4159591934.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec4159591934]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4159591934.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc       -v CMakeFiles/cmTryCompileExec4159591934.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4159591934 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/4.8/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Raspbian 4.8.2-21~rpi3rpi1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --disable-libitm --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-armhf/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-armhf --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-armhf --with-arch-directory=arm --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-sjlj-exceptions --with-arch=armv6 --with-fpu=vfp --with-float=hard --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (Raspbian 4.8.2-21~rpi3rpi1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4159591934' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
+  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=both -m armelf_linux_eabi -o cmTryCompileExec4159591934 /usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.8/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.8 -L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTryCompileExec4159591934.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/4.8/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crtn.o]
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec4159591934] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crti.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.8] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../..] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../..]
+    arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
+    arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
+    arg [CMakeFiles/cmTryCompileExec4159591934.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8] ==> [/usr/lib/gcc/arm-linux-gnueabihf/4.8]
+  collapse dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  collapse dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../..] ==> [/usr/lib]
+  collapse dir [/lib/arm-linux-gnueabihf] ==> [/lib/arm-linux-gnueabihf]
+  collapse dir [/usr/lib/arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/arm-linux-gnueabihf/4.8;/usr/lib/arm-linux-gnueabihf;/usr/lib;/lib/arm-linux-gnueabihf]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2130855971/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2130855971.dir/build.make CMakeFiles/cmTryCompileExec2130855971.dir/build
+make[1]: Entering directory '/home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2130855971.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2130855971.dir/testCXXCompiler.cxx.o -c /home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2130855971
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2130855971.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec2130855971.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2130855971 -rdynamic 
+make[1]: Leaving directory '/home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec315892851/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec315892851.dir/build.make CMakeFiles/cmTryCompileExec315892851.dir/build
+make[1]: Entering directory '/home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec315892851.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec315892851.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec315892851
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec315892851.dir/link.txt --verbose=1
+/usr/bin/c++        -v CMakeFiles/cmTryCompileExec315892851.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec315892851 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/4.8/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: ../src/configure -v --with-pkgversion='Raspbian 4.8.2-21~rpi3rpi1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --disable-libitm --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-armhf/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-armhf --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-armhf --with-arch-directory=arm --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-sjlj-exceptions --with-arch=armv6 --with-fpu=vfp --with-float=hard --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf
+Thread model: posix
+gcc version 4.8.2 (Raspbian 4.8.2-21~rpi3rpi1) 
+COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/
+LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec315892851' '-rdynamic' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /usr/lib/gcc/arm-linux-gnueabihf/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=both -m armelf_linux_eabi -o cmTryCompileExec315892851 /usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.8/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.8 -L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTryCompileExec315892851.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/4.8/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crtn.o
+make[1]: Leaving directory '/home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec315892851/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec315892851.dir/build.make CMakeFiles/cmTryCompileExec315892851.dir/build]
+  ignore line: [make[1]: Entering directory '/home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec315892851.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec315892851.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec315892851]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec315892851.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++        -v CMakeFiles/cmTryCompileExec315892851.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec315892851 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/4.8/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Raspbian 4.8.2-21~rpi3rpi1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --disable-libitm --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-armhf/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-armhf --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-armhf --with-arch-directory=arm --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-sjlj-exceptions --with-arch=armv6 --with-fpu=vfp --with-float=hard --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (Raspbian 4.8.2-21~rpi3rpi1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec315892851' '-rdynamic' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
+  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=both -m armelf_linux_eabi -o cmTryCompileExec315892851 /usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.8/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.8 -L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTryCompileExec315892851.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/4.8/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crtn.o]
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec315892851] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crti.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.8] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../..] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../..]
+    arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
+    arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
+    arg [CMakeFiles/cmTryCompileExec315892851.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8] ==> [/usr/lib/gcc/arm-linux-gnueabihf/4.8]
+  collapse dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  collapse dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../..] ==> [/usr/lib]
+  collapse dir [/lib/arm-linux-gnueabihf] ==> [/lib/arm-linux-gnueabihf]
+  collapse dir [/usr/lib/arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/arm-linux-gnueabihf/4.8;/usr/lib/arm-linux-gnueabihf;/usr/lib;/lib/arm-linux-gnueabihf]
+
+
+Performing C++ SOURCE FILE Test HAVE_STL_CONTAINER_INCOMPLETE_TYPES succeded with the following output:
+Change Dir: /home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4189253100/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4189253100.dir/build.make CMakeFiles/cmTryCompileExec4189253100.dir/build
+make[1]: Entering directory '/home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4189253100.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_STL_CONTAINER_INCOMPLETE_TYPES   -o CMakeFiles/cmTryCompileExec4189253100.dir/src.cxx.o -c /home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4189253100
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4189253100.dir/link.txt --verbose=1
+/usr/bin/c++      -DHAVE_STL_CONTAINER_INCOMPLETE_TYPES    CMakeFiles/cmTryCompileExec4189253100.dir/src.cxx.o  -o cmTryCompileExec4189253100 -rdynamic 
+make[1]: Leaving directory '/home/erle/ros_catkin_ws/build_isolated/orocos_kdl/install/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+        #include <string>
+        #include <map>
+        #include <vector>
+
+        class TreeElement;
+        typedef std::map<std::string, TreeElement> SegmentMap;
+
+        class TreeElement
+        {
+            TreeElement(const std::string& name): number(0) {}
+
+        public:
+            int number;
+            SegmentMap::const_iterator parent;
+            std::vector<SegmentMap::const_iterator> children;
+
+            static TreeElement Root(std::string& name)
+            {
+                return TreeElement(name);
+            }
+        };
+
+        int main()
+        {
+            return 0;
+        }
+        

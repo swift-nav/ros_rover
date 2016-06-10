@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "raspicam")
+set(raspicam_MAINTAINER "pi <pi@todo.todo>")
+set(raspicam_DEPRECATED "")
+set(raspicam_VERSION "0.0.0")
+set(raspicam_BUILD_DEPENDS "compressed_image_transport" "roscpp" "std_msgs")
+set(raspicam_RUN_DEPENDS "compressed_image_transport" "roscpp" "std_msgs" "camera_info_manager")
+set(raspicam_BUILDTOOL_DEPENDS "catkin")

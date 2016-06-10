@@ -1,0 +1,8 @@
+prefix=/home/erle/ros_catkin_ws/install_isolated
+
+Name: std_srvs
+Description: Description of std_srvs
+Version: 1.11.1
+Cflags: -I/home/erle/ros_catkin_ws/install_isolated/include
+Libs: -L/home/erle/ros_catkin_ws/install_isolated/lib 
+Requires: message_runtime

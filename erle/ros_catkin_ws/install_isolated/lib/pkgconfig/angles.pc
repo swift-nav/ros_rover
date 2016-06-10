@@ -1,0 +1,8 @@
+prefix=/home/erle/ros_catkin_ws/install_isolated
+
+Name: angles
+Description: Description of angles
+Version: 1.9.10
+Cflags: -I/home/erle/ros_catkin_ws/install_isolated/include
+Libs: -L/home/erle/ros_catkin_ws/install_isolated/lib 
+Requires: 

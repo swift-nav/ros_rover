@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "compressed_image_transport")
+set(compressed_image_transport_MAINTAINER "David Gossow <dgossow@willowgarage.com>")
+set(compressed_image_transport_DEPRECATED "")
+set(compressed_image_transport_VERSION "1.9.2")
+set(compressed_image_transport_BUILD_DEPENDS "cv_bridge" "dynamic_reconfigure" "image_transport" "tf")
+set(compressed_image_transport_RUN_DEPENDS "cv_bridge" "dynamic_reconfigure" "image_transport" "tf")
+set(compressed_image_transport_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,8 @@
+prefix=/home/erle/ros_catkin_ws/devel_isolated/openni_launch
+
+Name: openni_launch
+Description: Description of openni_launch
+Version: 1.9.6
+Cflags: 
+Libs: -L/home/erle/ros_catkin_ws/devel_isolated/openni_launch/lib 
+Requires: 

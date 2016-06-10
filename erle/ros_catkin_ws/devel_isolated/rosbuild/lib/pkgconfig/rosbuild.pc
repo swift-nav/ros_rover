@@ -1,0 +1,8 @@
+prefix=/home/erle/ros_catkin_ws/devel_isolated/rosbuild
+
+Name: rosbuild
+Description: Description of rosbuild
+Version: 1.11.11
+Cflags: 
+Libs: -L/home/erle/ros_catkin_ws/devel_isolated/rosbuild/lib 
+Requires: 

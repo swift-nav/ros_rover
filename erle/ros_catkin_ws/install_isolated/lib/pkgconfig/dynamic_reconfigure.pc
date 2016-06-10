@@ -1,0 +1,8 @@
+prefix=/home/erle/ros_catkin_ws/install_isolated
+
+Name: dynamic_reconfigure
+Description: Description of dynamic_reconfigure
+Version: 1.5.39
+Cflags: -I/home/erle/ros_catkin_ws/install_isolated/include
+Libs: -L/home/erle/ros_catkin_ws/install_isolated/lib -ldynamic_reconfigure_config_init_mutex
+Requires: message_runtime std_msgs

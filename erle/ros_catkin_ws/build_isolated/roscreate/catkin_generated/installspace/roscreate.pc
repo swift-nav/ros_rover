@@ -1,0 +1,8 @@
+prefix=/home/erle/ros_catkin_ws/install_isolated
+
+Name: roscreate
+Description: Description of roscreate
+Version: 1.11.11
+Cflags: 
+Libs: -L/home/erle/ros_catkin_ws/install_isolated/lib 
+Requires: 

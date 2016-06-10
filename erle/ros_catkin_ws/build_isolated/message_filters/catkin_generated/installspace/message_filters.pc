@@ -1,0 +1,8 @@
+prefix=/home/erle/ros_catkin_ws/install_isolated
+
+Name: message_filters
+Description: Description of message_filters
+Version: 1.11.15
+Cflags: -I/home/erle/ros_catkin_ws/install_isolated/include
+Libs: -L/home/erle/ros_catkin_ws/install_isolated/lib -lmessage_filters
+Requires: roscpp xmlrpcpp rosconsole

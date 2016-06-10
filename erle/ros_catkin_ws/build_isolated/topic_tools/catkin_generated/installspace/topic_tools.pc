@@ -1,0 +1,8 @@
+prefix=/home/erle/ros_catkin_ws/install_isolated
+
+Name: topic_tools
+Description: Description of topic_tools
+Version: 1.11.15
+Cflags: -I/home/erle/ros_catkin_ws/install_isolated/include
+Libs: -L/home/erle/ros_catkin_ws/install_isolated/lib -ltopic_tools
+Requires: message_runtime rosconsole roscpp std_msgs xmlrpcpp

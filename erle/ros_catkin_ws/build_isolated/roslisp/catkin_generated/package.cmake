@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "roslisp")
+set(roslisp_MAINTAINER "Georg Bartels <georg.bartels@cs.uni-bremen.de>, Lorenz Moesenlechner <moesenle@cs.tum.edu>")
+set(roslisp_DEPRECATED "")
+set(roslisp_VERSION "1.9.19")
+set(roslisp_BUILD_DEPENDS )
+set(roslisp_RUN_DEPENDS "roslang" "sbcl" "rospack" "rosgraph_msgs" "std_srvs")
+set(roslisp_BUILDTOOL_DEPENDS "catkin")

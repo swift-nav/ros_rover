@@ -1,0 +1,8 @@
+prefix=/home/erle/ros_catkin_ws/install_isolated
+
+Name: rosmaster
+Description: Description of rosmaster
+Version: 1.11.15
+Cflags: 
+Libs: -L/home/erle/ros_catkin_ws/install_isolated/lib 
+Requires: 

@@ -1,0 +1,8 @@
+set(_CATKIN_CURRENT_PACKAGE "diagnostic_updater")
+set(diagnostic_updater_VERSION "1.8.8")
+set(diagnostic_updater_MAINTAINER "Austin Hendrix <namniart@gmail.com>, Brice Rebsamen <brice.rebsamen@gmail.com>")
+set(diagnostic_updater_BUILD_DEPENDS "diagnostic_msgs" "roscpp" "rostest" "std_msgs")
+set(diagnostic_updater_RUN_DEPENDS "diagnostic_msgs" "roscpp" "std_msgs")
+set(diagnostic_updater_DEPRECATED "")
+set(diagnostic_updater_BUILDTOOL_DEPENDS "catkin")
+set(diagnostic_updater_BUILDTOOL_DEPENDS_catkin_VERSION_GTE "0.5.68")

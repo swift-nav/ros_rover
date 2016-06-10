@@ -1,0 +1,8 @@
+prefix=/home/erle/ros_catkin_ws/devel_isolated/actionlib
+
+Name: actionlib
+Description: Description of actionlib
+Version: 1.11.4
+Cflags: -I/home/erle/ros_catkin_ws/devel_isolated/actionlib/include -I/home/erle/ros_catkin_ws/src/actionlib/include -I/usr/include
+Libs: -L/home/erle/ros_catkin_ws/devel_isolated/actionlib/lib -lactionlib -l:/usr/lib/arm-linux-gnueabihf/libboost_thread.so -lpthread
+Requires: actionlib_msgs message_runtime roscpp std_msgs

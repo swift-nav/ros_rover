@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "tf2_msgs")
+set(tf2_msgs_MAINTAINER "Tully Foote <tfoote@osrfoundation.org>")
+set(tf2_msgs_DEPRECATED "")
+set(tf2_msgs_VERSION "0.5.12")
+set(tf2_msgs_BUILD_DEPENDS "actionlib_msgs" "geometry_msgs" "message_generation")
+set(tf2_msgs_RUN_DEPENDS "actionlib_msgs" "geometry_msgs" "message_generation")
+set(tf2_msgs_BUILDTOOL_DEPENDS "catkin")

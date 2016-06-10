@@ -1,0 +1,8 @@
+set(_CATKIN_CURRENT_PACKAGE "actionlib")
+set(actionlib_VERSION "1.11.4")
+set(actionlib_MAINTAINER "Esteve Fernandez <esteve@osrfoundation.org>")
+set(actionlib_BUILD_DEPENDS "actionlib_msgs" "boost" "message_generation" "roscpp" "rospy" "rostest" "std_msgs")
+set(actionlib_RUN_DEPENDS "actionlib_msgs" "boost" "message_runtime" "roscpp" "rospy" "rostest" "std_msgs")
+set(actionlib_DEPRECATED "")
+set(actionlib_BUILDTOOL_DEPENDS "catkin")
+set(actionlib_BUILDTOOL_DEPENDS_catkin_VERSION_GTE "0.5.78")

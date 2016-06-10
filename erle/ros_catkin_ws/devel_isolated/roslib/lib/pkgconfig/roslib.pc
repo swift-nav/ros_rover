@@ -1,0 +1,8 @@
+prefix=/home/erle/ros_catkin_ws/devel_isolated/roslib
+
+Name: roslib
+Description: Description of roslib
+Version: 1.11.11
+Cflags: -I/home/erle/ros_catkin_ws/src/ros/roslib/include
+Libs: -L/home/erle/ros_catkin_ws/devel_isolated/roslib/lib -lroslib
+Requires: 

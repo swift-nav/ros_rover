@@ -1,0 +1,8 @@
+set(_CATKIN_CURRENT_PACKAGE "angles")
+set(angles_VERSION "1.9.10")
+set(angles_MAINTAINER "Ioan Sucan <isucan@willowgarage.com>")
+set(angles_BUILD_DEPENDS )
+set(angles_RUN_DEPENDS )
+set(angles_DEPRECATED "")
+set(angles_BUILDTOOL_DEPENDS "catkin")
+set(angles_BUILDTOOL_DEPENDS_catkin_VERSION_GTE "0.5.68")

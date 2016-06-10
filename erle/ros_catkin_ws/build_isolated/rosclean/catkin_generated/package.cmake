@@ -1,0 +1,8 @@
+set(_CATKIN_CURRENT_PACKAGE "rosclean")
+set(rosclean_VERSION "1.11.11")
+set(rosclean_MAINTAINER "Dirk Thomas <dthomas@osrfoundation.org>")
+set(rosclean_BUILD_DEPENDS )
+set(rosclean_RUN_DEPENDS "python-rospkg")
+set(rosclean_DEPRECATED "")
+set(rosclean_BUILDTOOL_DEPENDS "catkin")
+set(rosclean_BUILDTOOL_DEPENDS_catkin_VERSION_GTE "0.5.68")

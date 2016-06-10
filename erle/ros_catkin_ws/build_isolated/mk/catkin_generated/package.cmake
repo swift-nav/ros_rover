@@ -1,0 +1,8 @@
+set(_CATKIN_CURRENT_PACKAGE "mk")
+set(mk_VERSION "1.11.11")
+set(mk_MAINTAINER "Dirk Thomas <dthomas@osrfoundation.org>")
+set(mk_BUILD_DEPENDS )
+set(mk_RUN_DEPENDS "rosbuild")
+set(mk_DEPRECATED "")
+set(mk_BUILDTOOL_DEPENDS "catkin")
+set(mk_BUILDTOOL_DEPENDS_catkin_VERSION_GTE "0.5.69")

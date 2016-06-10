@@ -1,0 +1,8 @@
+set(_CATKIN_CURRENT_PACKAGE "camera_info_manager")
+set(camera_info_manager_VERSION "1.11.7")
+set(camera_info_manager_MAINTAINER "Jack O'Quin <jack.oquin@gmail.com>, Vincent Rabaud <vincent.rabaud@gmail.com>")
+set(camera_info_manager_BUILD_DEPENDS "boost" "camera_calibration_parsers" "image_transport" "roscpp" "roslib" "rostest" "sensor_msgs")
+set(camera_info_manager_RUN_DEPENDS "boost" "camera_calibration_parsers" "image_transport" "roscpp" "roslib" "sensor_msgs")
+set(camera_info_manager_DEPRECATED "")
+set(camera_info_manager_BUILDTOOL_DEPENDS "catkin")
+set(camera_info_manager_BUILDTOOL_DEPENDS_catkin_VERSION_GTE "0.5.68")

@@ -1,0 +1,12 @@
+/home/erle/ros_catkin_ws/install_isolated/_setup_util.py
+/home/erle/ros_catkin_ws/install_isolated/env.sh
+/home/erle/ros_catkin_ws/install_isolated/setup.bash
+/home/erle/ros_catkin_ws/install_isolated/setup.sh
+/home/erle/ros_catkin_ws/install_isolated/setup.zsh
+/home/erle/ros_catkin_ws/install_isolated/.rosinstall
+/home/erle/ros_catkin_ws/install_isolated/lib/pkgconfig/camera_info_manager.pc
+/home/erle/ros_catkin_ws/install_isolated/share/camera_info_manager/cmake/camera_info_managerConfig.cmake
+/home/erle/ros_catkin_ws/install_isolated/share/camera_info_manager/cmake/camera_info_managerConfig-version.cmake
+/home/erle/ros_catkin_ws/install_isolated/share/camera_info_manager/package.xml
+/home/erle/ros_catkin_ws/install_isolated/lib/libcamera_info_manager.so
+/home/erle/ros_catkin_ws/install_isolated/include/camera_info_manager/camera_info_manager.h

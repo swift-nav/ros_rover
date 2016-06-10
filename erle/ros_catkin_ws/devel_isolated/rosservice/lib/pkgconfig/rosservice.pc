@@ -1,0 +1,8 @@
+prefix=/home/erle/ros_catkin_ws/devel_isolated/rosservice
+
+Name: rosservice
+Description: Description of rosservice
+Version: 1.11.15
+Cflags: 
+Libs: -L/home/erle/ros_catkin_ws/devel_isolated/rosservice/lib 
+Requires: 

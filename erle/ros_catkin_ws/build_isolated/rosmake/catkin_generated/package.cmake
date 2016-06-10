@@ -1,0 +1,8 @@
+set(_CATKIN_CURRENT_PACKAGE "rosmake")
+set(rosmake_VERSION "1.11.11")
+set(rosmake_MAINTAINER "Dirk Thomas <dthomas@osrfoundation.org>")
+set(rosmake_BUILD_DEPENDS )
+set(rosmake_RUN_DEPENDS "catkin" "python-rospkg")
+set(rosmake_DEPRECATED "")
+set(rosmake_BUILDTOOL_DEPENDS "catkin")
+set(rosmake_BUILDTOOL_DEPENDS_catkin_VERSION_GTE "0.5.68")

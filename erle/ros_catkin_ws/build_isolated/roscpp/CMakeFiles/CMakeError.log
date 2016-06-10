@@ -1,0 +1,83 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/erle/ros_catkin_ws/build_isolated/roscpp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec762179131/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec762179131.dir/build.make CMakeFiles/cmTryCompileExec762179131.dir/build
+make[1]: Entering directory '/home/erle/ros_catkin_ws/build_isolated/roscpp/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/erle/ros_catkin_ws/build_isolated/roscpp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec762179131.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec762179131.dir/CheckSymbolExists.c.o   -c /home/erle/ros_catkin_ws/build_isolated/roscpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec762179131
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec762179131.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec762179131.dir/CheckSymbolExists.c.o  -o cmTryCompileExec762179131 -rdynamic 
+CMakeFiles/cmTryCompileExec762179131.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x38): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec762179131.dir/build.make:88: recipe for target 'cmTryCompileExec762179131' failed
+make[1]: Leaving directory '/home/erle/ros_catkin_ws/build_isolated/roscpp/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec762179131] Error 1
+Makefile:114: recipe for target 'cmTryCompileExec762179131/fast' failed
+make: *** [cmTryCompileExec762179131/fast] Error 2
+
+File /home/erle/ros_catkin_ws/build_isolated/roscpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/erle/ros_catkin_ws/build_isolated/roscpp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec91331654/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec91331654.dir/build.make CMakeFiles/cmTryCompileExec91331654.dir/build
+make[1]: Entering directory '/home/erle/ros_catkin_ws/build_isolated/roscpp/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/erle/ros_catkin_ws/build_isolated/roscpp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec91331654.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec91331654.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec91331654
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec91331654.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec91331654.dir/CheckFunctionExists.c.o  -o cmTryCompileExec91331654 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec91331654.dir/build.make:88: recipe for target 'cmTryCompileExec91331654' failed
+make[1]: Leaving directory '/home/erle/ros_catkin_ws/build_isolated/roscpp/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec91331654] Error 1
+Makefile:114: recipe for target 'cmTryCompileExec91331654/fast' failed
+make: *** [cmTryCompileExec91331654/fast] Error 2
+
+
+Determining if the function trunc exists failed with the following output:
+Change Dir: /home/erle/ros_catkin_ws/build_isolated/roscpp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec260446949/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec260446949.dir/build.make CMakeFiles/cmTryCompileExec260446949.dir/build
+make[1]: Entering directory '/home/erle/ros_catkin_ws/build_isolated/roscpp/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/erle/ros_catkin_ws/build_isolated/roscpp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec260446949.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=trunc   -o CMakeFiles/cmTryCompileExec260446949.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function 'trunc' [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec260446949
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec260446949.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=trunc    CMakeFiles/cmTryCompileExec260446949.dir/CheckFunctionExists.c.o  -o cmTryCompileExec260446949 -rdynamic 
+CMakeFiles/cmTryCompileExec260446949.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `trunc'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec260446949.dir/build.make:88: recipe for target 'cmTryCompileExec260446949' failed
+make[1]: *** [cmTryCompileExec260446949] Error 1
+make[1]: Leaving directory '/home/erle/ros_catkin_ws/build_isolated/roscpp/CMakeFiles/CMakeTmp'
+Makefile:114: recipe for target 'cmTryCompileExec260446949/fast' failed
+make: *** [cmTryCompileExec260446949/fast] Error 2
+
+

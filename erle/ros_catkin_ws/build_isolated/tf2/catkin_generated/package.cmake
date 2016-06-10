@@ -1,0 +1,8 @@
+set(_CATKIN_CURRENT_PACKAGE "tf2")
+set(tf2_VERSION "0.5.12")
+set(tf2_MAINTAINER "Tully Foote <tfoote@osrfoundation.org>")
+set(tf2_BUILD_DEPENDS "libconsole-bridge-dev" "geometry_msgs" "rostime" "tf2_msgs")
+set(tf2_RUN_DEPENDS "libconsole-bridge-dev" "geometry_msgs" "rostime" "tf2_msgs")
+set(tf2_DEPRECATED "")
+set(tf2_BUILDTOOL_DEPENDS "catkin")
+set(tf2_BUILDTOOL_DEPENDS_catkin_VERSION_GTE "0.5.68")
